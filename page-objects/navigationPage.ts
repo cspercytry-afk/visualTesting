@@ -9,13 +9,13 @@ export class NavigationPage extends HelperBase{
 
     async formLayoutsPage(){
         await this.selectGoupMenuItem('Forms')
-        await this.page.getByText('Form Layouts').click()
+        // await this.page.getByText('Form Layouts').click()
         await this.waitForNumberOfSeconds(2)
     }
 
     async datepickerPage(){
         await this.selectGoupMenuItem('Forms')
-        await this.page.getByText('Datepicker').click()
+        // await this.page.getByText('Datepicker').click()
     }
 
     async smartTablePage(){
